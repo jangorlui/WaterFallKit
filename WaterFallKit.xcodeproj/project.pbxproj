@@ -18,6 +18,12 @@
 		049D76E5173CD67200D0FEB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D76E4173CD67200D0FEB3 /* Default-568h@2x.png */; };
 		049D76E8173CD67200D0FEB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D76E7173CD67200D0FEB3 /* ViewController.m */; };
 		049D76EB173CD67200D0FEB3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049D76E9173CD67200D0FEB3 /* ViewController.xib */; };
+		049D76FE173CD6A700D0FEB3 /* WaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D76F3173CD6A700D0FEB3 /* WaterView.m */; };
+		049D76FF173CD6A700D0FEB3 /* MessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D76F5173CD6A700D0FEB3 /* MessView.m */; };
+		049D7700173CD6A700D0FEB3 /* UIButton+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D76F7173CD6A700D0FEB3 /* UIButton+URL.m */; };
+		049D7701173CD6A700D0FEB3 /* dataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049D76F8173CD6A700D0FEB3 /* dataList.plist */; };
+		049D7702173CD6A700D0FEB3 /* DataAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D76FB173CD6A700D0FEB3 /* DataAccess.m */; };
+		049D7703173CD6A700D0FEB3 /* DataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 049D76FD173CD6A700D0FEB3 /* DataInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,17 @@
 		049D76E6173CD67200D0FEB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		049D76E7173CD67200D0FEB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		049D76EA173CD67200D0FEB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		049D76F2173CD6A700D0FEB3 /* WaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterView.h; sourceTree = "<group>"; };
+		049D76F3173CD6A700D0FEB3 /* WaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterView.m; sourceTree = "<group>"; };
+		049D76F4173CD6A700D0FEB3 /* MessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessView.h; sourceTree = "<group>"; };
+		049D76F5173CD6A700D0FEB3 /* MessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessView.m; sourceTree = "<group>"; };
+		049D76F6173CD6A700D0FEB3 /* UIButton+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+URL.h"; sourceTree = "<group>"; };
+		049D76F7173CD6A700D0FEB3 /* UIButton+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+URL.m"; sourceTree = "<group>"; };
+		049D76F8173CD6A700D0FEB3 /* dataList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataList.plist; sourceTree = "<group>"; };
+		049D76FA173CD6A700D0FEB3 /* DataAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataAccess.h; sourceTree = "<group>"; };
+		049D76FB173CD6A700D0FEB3 /* DataAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataAccess.m; sourceTree = "<group>"; };
+		049D76FC173CD6A700D0FEB3 /* DataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataInfo.h; sourceTree = "<group>"; };
+		049D76FD173CD6A700D0FEB3 /* DataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +105,8 @@
 				049D76E6173CD67200D0FEB3 /* ViewController.h */,
 				049D76E7173CD67200D0FEB3 /* ViewController.m */,
 				049D76E9173CD67200D0FEB3 /* ViewController.xib */,
+				049D76F9173CD6A700D0FEB3 /* model */,
+				049D76F1173CD6A700D0FEB3 /* WaterView */,
 				049D76D5173CD67200D0FEB3 /* Supporting Files */,
 			);
 			path = WaterFallKit;
@@ -96,6 +115,7 @@
 		049D76D5173CD67200D0FEB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				049D76F8173CD6A700D0FEB3 /* dataList.plist */,
 				049D76D6173CD67200D0FEB3 /* WaterFallKit-Info.plist */,
 				049D76D7173CD67200D0FEB3 /* InfoPlist.strings */,
 				049D76DA173CD67200D0FEB3 /* main.m */,
@@ -105,6 +125,31 @@
 				049D76E4173CD67200D0FEB3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049D76F1173CD6A700D0FEB3 /* WaterView */ = {
+			isa = PBXGroup;
+			children = (
+				049D76F2173CD6A700D0FEB3 /* WaterView.h */,
+				049D76F3173CD6A700D0FEB3 /* WaterView.m */,
+				049D76F4173CD6A700D0FEB3 /* MessView.h */,
+				049D76F5173CD6A700D0FEB3 /* MessView.m */,
+				049D76F6173CD6A700D0FEB3 /* UIButton+URL.h */,
+				049D76F7173CD6A700D0FEB3 /* UIButton+URL.m */,
+			);
+			name = WaterView;
+			path = AOWaterView;
+			sourceTree = "<group>";
+		};
+		049D76F9173CD6A700D0FEB3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				049D76FA173CD6A700D0FEB3 /* DataAccess.h */,
+				049D76FB173CD6A700D0FEB3 /* DataAccess.m */,
+				049D76FC173CD6A700D0FEB3 /* DataInfo.h */,
+				049D76FD173CD6A700D0FEB3 /* DataInfo.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +208,7 @@
 				049D76E3173CD67200D0FEB3 /* Default@2x.png in Resources */,
 				049D76E5173CD67200D0FEB3 /* Default-568h@2x.png in Resources */,
 				049D76EB173CD67200D0FEB3 /* ViewController.xib in Resources */,
+				049D7701173CD6A700D0FEB3 /* dataList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +222,11 @@
 				049D76DB173CD67200D0FEB3 /* main.m in Sources */,
 				049D76DF173CD67200D0FEB3 /* AppDelegate.m in Sources */,
 				049D76E8173CD67200D0FEB3 /* ViewController.m in Sources */,
+				049D76FE173CD6A700D0FEB3 /* WaterView.m in Sources */,
+				049D76FF173CD6A700D0FEB3 /* MessView.m in Sources */,
+				049D7700173CD6A700D0FEB3 /* UIButton+URL.m in Sources */,
+				049D7702173CD6A700D0FEB3 /* DataAccess.m in Sources */,
+				049D7703173CD6A700D0FEB3 /* DataInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

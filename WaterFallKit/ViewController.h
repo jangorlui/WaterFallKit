@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "WaterView.h"
+@interface ViewController : UIViewController<UIScrollViewDelegate>
+{
+    int loadPage;
+}
+@property(nonatomic,strong)WaterView *aoView;
 @end
